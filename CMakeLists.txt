@@ -33,8 +33,8 @@ if(PROJECT_IS_TOP_LEVEL)
     add_subdirectory(app)
     add_subdirectory(test)
     file(CREATE_LINK
-        "${CMAKE_BINARY_DIR}/compile_commands.json"
-        "${CMAKE_SOURCE_DIR}/compile_commands.json"
+        "${PROJECT_BINARY_DIR}/compile_commands.json"
+        "${PROJECT_SOURCE_DIR}/compile_commands.json"
         SYMBOLIC
     )
 endif()
