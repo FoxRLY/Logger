@@ -13,7 +13,9 @@ set_property(GLOBAL PROPERTY USE_FOLDERS ON)
 include(./cpm/CPM.cmake)
 set(CPM_SOURCE_CACHE /home/foxrly/.cache/CPM)
 
-set(LIBRARY_LIST "")
+CPMAddPackage("gh:fmtlib/fmt#10.2.1")
+
+set(LIBRARY_LIST fmt::fmt)
 
 add_subdirectory(src)
 

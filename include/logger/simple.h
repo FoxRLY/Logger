@@ -2,8 +2,6 @@
 #include <logger/message.h>
 #include <logger/writer.h>
 #include <logger/logger.h>
-#include <fmt/core.h>
-#include <fmt/chrono.h>
 
 namespace logger {
 

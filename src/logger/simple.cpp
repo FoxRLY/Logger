@@ -1,5 +1,6 @@
 #include <logger/simple.h>
 #include <fmt/core.h>
+#include <fmt/chrono.h>
 
 namespace logger {
 
