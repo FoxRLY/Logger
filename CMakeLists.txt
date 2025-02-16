@@ -18,6 +18,7 @@ set(LIBRARY_LIST "")
 add_subdirectory(src)
 
 if(PROJECT_IS_TOP_LEVEL)
+    message(STATUS "Project is top level")
     enable_testing()
     include(GoogleTest)
 
